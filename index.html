@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">Welcome to My Website</h1>
+      <nav class="header-nav">
+        <a href="#home" class="header-nav-link">Home</a>
+        <a href="#about" class="header-nav-link">About</a>
+        <a href="#services" class="header-nav-link">Services</a>
+        <a href="#contact" class="header-nav-link">Contact</a>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="home-section">
+        <h2 class="home-title">Home</h2>
+        <p class="home-text">
+          Welcome to my website! Here you will find information about me and my
+          services.
+        </p>
+      </section>
+      <section class="about-section">
+        <h2 class="about-title">About</h2>
+        <p class="about-text">
+          I am a web developer with a passion for creating beautiful and
+          functional websites.
+        </p>
+        <img src="profile.jpg" alt="My Profile Picture" class="about-image" />
+      </section>
+      <section class="services-section">
+        <h2 class="services-title">Services</h2>
+        <h3 class="services-subtitle">Web Design</h3>
+        <p class="services-text">
+          I can help you design a website that reflects your brand and attracts
+          customers.
+        </p>
+        <h3 class="services-subtitle">Web Development</h3>
+        <p class="services-text">
+          I can build a website that is both visually appealing and easy to use.
+        </p>
+      </section>
+      <aside class="contact-aside">
+        <h2 class="contact-title">Contact</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Message:</label>
+            <textarea id="message" name="message" class="form-input"></textarea>
+          </div>
+          <button type="submit" class="form-button">Send</button>
+        </form>
+      </aside>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">Copyright ©2022 My Website</p>
+    </footer>
+  </body>
+</html>
